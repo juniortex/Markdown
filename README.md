@@ -5,40 +5,46 @@
 > Para criar um título, basta digitar uma cerquilha `#` antes do texto do título.<br>
 > Cada `#` representa um nível de título:
 
-`#` = > Título de nível 1 | `##` => Título de nível 2 | `###` => Título de nível 3
----|---|---
-`####` => Título de nível 4 | `#####` => Título de nível 5 | `######` => Título de nível 6
+`#` | Título de nível 1
+---|---
+`##` | Título de nível 2
+`###` | Título de nível 3
+`####` | Título de nível 4
+`#####` | Título de nível 5
+`######` | Título de nível 6
 
 ## FORMATAÇÃO DE TEXTO:
 ### NEGRITO:
 > Para deixar um texto negrito, deve-se envolvê-lo entre um duplo par de asteriscos ou de underlines: `**texto**` ou `__texto__`
 
-`**Negrito**` => **Negrito** | `__Negrito__` => __Negrito__
+`**Negrito**` | **Negrito**
 ---|---
+`__Negrito__` | __Negrito__
 
 ### ITÁLICO:
 > Para deixar um texto itálico, deve-se envolvê-lo entre um par de asteriscos ou de underlines: `*texto*` ou `_texto_`
 
-`*Itálico*` => *Itálico* | `_Itálico_` => _Itálico_
+`*Itálico*` | *Itálico*
 ---|---
+`_Itálico_` | _Itálico_
 
 ### NEGRITO E ITÁLICO:
 > Para deixar um texto negrito e itálico, deve-se envolvê-lo entre um par de asteriscos, envolto em um duplo par de underlines: `__*texto*__`
 
-`__*Negrito e Itálico*__` => __*Negrito e Itálico*__
----|
+`__*Negrito e Itálico*__` | __*Negrito e Itálico*__
+---|---
 
 ### RISCADO:
 > Para deixar um texto riscado, deve-se envolvê-lo entre um duplo par de tios: `~~texto~~`
-`~~Riscado~~` => ~~Riscado~~
----|
+
+`~~Riscado~~` | ~~Riscado~~
+---|---
 
 ## LINHA HORIZONTAL:
 > Para criar uma linha horizontal, basta digitar 3 vezes o traço: `---`
 ---
 
-## LISTAS:
-### ORDENADA:
+## LISTA ORDENADA:
 > Para criar uma lista ordenada, basta digitar qualquer número, seguido de um ponto, antes dos itens: 
 ```
 1. Item;
@@ -54,8 +60,8 @@
    1. Subitem
 1. Item.
 
-### NÃO ORDENADA:
-#### TIPO 1:
+## LISTA NÃO ORDENADA:
+### TIPO 1:
 > Para criar uma lista sem necessidade de ordem, basta digitar um asterisco `*` antes dos itens:
 ```
 * Item;
@@ -71,7 +77,7 @@
    * Subitem
 * Item.
 
-#### TIPO 2:
+### TIPO 2:
 > Também é possível criar uma lista não ordenada digitando um traço `-` antes dos itens:
 ```
 - Item;
@@ -119,22 +125,23 @@ LINHA 1 | A1 | B1 | C1
 LINHA 2 | A2 | B2 | C2
 LINHA 3 | A3 | B3 | C3
 ```
->Exemplo:
+>Resultado:
 
 COLUNAS: | A | B | C
 ---|---|---|---
 LINHA 1 | A1 | B1 | C1
 LINHA 2 | A2 | B2 | C2
 LINHA 3 | A3 | B3 | C3
+> No exemplo acima, criamos uma tabela 4x4, exemplificando uma tabela com 3 linhas e 3 colunas, mas é possível criar tabelas maiores ou menores.
 
 ## CÓDIGO:
-Use as crases ` `` ` para envolver o código desejado.
+> Use as crases ` `` ` para envolver o código desejado.
 
-### Exemplo:
+>Exemplo:
 O código `document.getElementById()` pertence a linguagem JavaScript.
 
 ## CÓDIGO PRÉ-FORMATADO:
-Use as crases triplas para envolver um código de várias linhas: ` ```código``` `
+> Use as crases triplas para envolver um código de várias linhas: ` ```código``` `
 
 >Exemplo:
 O código abaixo, pertence ao JavaScript:
@@ -147,7 +154,7 @@ num = Int(input('Digite o valor:'))
 ```
 
 ## EMOJIS:
-Para usar emojis, deve-se colocar o nome do emoji entre dois pontos: `:nome_do_emoji:`
+> Para usar emojis, deve-se colocar o nome do emoji entre dois pontos: `:nome_do_emoji:`
 
 >Exemplos:
 
@@ -156,20 +163,21 @@ Para usar emojis, deve-se colocar o nome do emoji entre dois pontos: `:nome_do_e
 `:smiling_face_with_three_hearts:` | :smiling_face_with_three_hearts:
 `:wink:` | :wink:
 
-Mais emojis neste [link.](https://github.com/ikatyang/emoji-cheat-sheet)
+> Mais emojis neste [link.](https://github.com/ikatyang/emoji-cheat-sheet)
 
 ## MARCAR PERFIS:
-Use `@user` para marcar um perfil.
+> Use `@user` para marcar um perfil.
 
-### Exemplo: @microsoft
-> OBS: _parece que só funciona em issues..._
+Exemplo | @microsoft
+---|---
+OBS: | _parece que só funciona em issues..._
 
 ## REPLY (RESPOSTA):
-Use o sinal de maior `>` + `a mensagem que você pretende responder` para marcá-la e respondê-la.
+> Use o sinal de maior `>` + `a mensagem que você pretende responder` para marcá-la e respondê-la.
 
-### Exemplo:
-> Mensagem...
+Exemplo:
+> Alguem pode me ajudar com um projeto?...
 
-Sua resposta.
+Sim, posso ajudar :slightly_smiling_face:
 
-[Acessar o Manual do Markdown do Guanabara.](https://github.com/gustavoguanabara/git-github/tree/master/manuais-PDF)
+Para mais informações e material de apoio, [Acessar o Manual do Markdown do Guanabara.](https://github.com/gustavoguanabara/git-github/tree/master/manuais-PDF)
